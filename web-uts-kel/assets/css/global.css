@@ -29,7 +29,12 @@
   .main_container {
     position: relative;
     width: 800px;
-    margin: 0 auto;
+    margin: 0;
+    margin-left: 20px;
+  }
+
+  .section-p1 {
+    padding: 40px 80px;
   }
 
   h1 {
@@ -38,21 +43,29 @@
     color: white;
     text-align: center;
     margin-top: 15px;
+    margin-left: 20px;
     padding-top: 50%;
 }
 
 h2 {
   font-family: sans-serif; 
-  font-size: 20px; color: black; 
-  text-align: auto; 
-  margin-left: auto
+  font-size: 30px; color: black; 
+  margin-left: 20px; 
 }
 
 p {
   font-family: sans-serif; 
   font-size: 14px; color: black; 
-  text-align: left; 
-  margin-left: auto
+  margin-left: 20px; padding-top:  10px ;
+   margin-right: 150px;
+}
+
+img {
+  margin-left: 690px;
+   margin-top: -200px; 
+   width: 100%;
+   width:740px;
+    height: 1000px
 }
   /* NAV BAR MENU */
 
@@ -74,3 +87,29 @@ p {
     background-color: black;
   
   }
+
+  #footer {
+ display: block; 
+ align-items: flex-start;
+ padding: 20px 80px;
+ margin: 150px;
+ margin-left: 20px;
+  }
+
+#content { 
+  display: block;
+  align-items: baseline;
+  justify-content: baseline;
+}
+
+#content li {
+  list-style: none;
+  padding: 20px;
+}
+
+#content li a {
+text-decoration: none;
+font-size: 16px;
+font-weight: 600;
+color: black;
+}
